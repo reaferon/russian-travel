@@ -1,0 +1,7 @@
+.header {
+  
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 142px auto 30px 30px;
+  
+}

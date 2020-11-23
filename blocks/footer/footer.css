@@ -1,0 +1,8 @@
+.footer {
+  background-color: darkcyan;
+  min-height: 100px;
+  grid-area: footer;
+}
+.footer>* {
+  display: none;
+}

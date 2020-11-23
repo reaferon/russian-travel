@@ -1,0 +1,10 @@
+.places {
+  background-color: blueviolet;
+  min-height: 100px;
+  margin: 0;
+  padding: 0;
+  grid-area: places;
+}
+.places>* {
+  display: none;
+}

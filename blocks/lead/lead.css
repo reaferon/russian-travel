@@ -1,0 +1,8 @@
+.lead {
+  background-color: #dadada;
+  min-height: 100px;
+  grid-area: lead;
+}
+.lead>* {
+  display: none;
+}

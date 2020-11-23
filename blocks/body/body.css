@@ -1,0 +1,24 @@
+.body {
+  font-family: 'Inter', serif;
+  font-size: 16px;
+  background-color: #2a2c2f;
+  color: #fff;
+}
+
+@media (min-width : 1024px) {
+  .body {
+    display: grid;
+    grid-template-columns: auto 48px minmax(928px, 1184px ) 48px auto;
+    grid-template-areas:
+
+    ". . header . ."
+    ". . lead . ."
+    ". . intro . ."
+    ". . photo-grid . ."
+    ". . places . ."
+    ". . cover . ."
+    ". . footer . ."
+
+    ;
+  }
+}
