@@ -1,9 +1,9 @@
 .lead {
-  min-height: 100px;
   grid-area: lead;
 }
 @media (min-width : 1024px) {
   .lead {
-    padding: 0 48px;
+    max-width: 984px;
+    margin: 0 auto;
   }
 }

@@ -2,16 +2,12 @@
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0;
-  align-items: flex-end;
-  /* margin:0; 
-  padding: 14px 0 0 0; 
-  display: flex;
-  align-items: flex-start; */
+  padding: 14px 0 0 0;
+  align-items: flex-start;
+  align-self: flex-start;
 }
-/* @media (min-width : 768px) {
+@media (min-width : 768px) {
   .header__lang {
-    outline: 1px solid #fff;
-    padding: 18px 0 0 0; 
+    padding: 18px 0 0 0;
   }
-} */
+}

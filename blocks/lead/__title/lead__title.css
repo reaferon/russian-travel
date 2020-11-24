@@ -1,16 +1,20 @@
 .lead__title {
-  font-family: 'Inter','Arial', serif;
   font-size: 40px;
   font-weight: 900;
   line-height: 44px;
   text-align: center;
-  margin: 32px auto 16px auto;
+  margin: 30px auto 0 auto;
 }
 @media (min-width : 768px) {
   .lead__title {
-    font-size: 90px;
+    font-size: 96px;
     line-height: 100px;
-    margin: 32px auto;
-    max-width: 80%;
+    max-width: 720px;
+    margin-top: 24px;
+  }
+}
+@media (min-width : 1280px) {
+  .lead__title {
+    margin-top: 32px;
   }
 }

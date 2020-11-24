@@ -1,8 +1,19 @@
 .intro {
-  
-  min-height: 100px;
   grid-area: intro;
+  padding: 64px 16px 64px 16px;
 }
-.intro>* {
-  display: none;
+
+@media (min-width : 768px) {
+  .intro {
+    /* font-size: 96px;
+    line-height: 100px;
+    max-width: 720px;
+    margin-top: 24px; */
+    margin-bottom: 88px;
+  }
+}
+@media (min-width : 1024px) {
+  .intro {
+    margin-bottom: 92px;
+  }
 }
