@@ -1,8 +1,9 @@
 .lead {
-  background-color: #dadada;
   min-height: 100px;
   grid-area: lead;
 }
-.lead>* {
-  display: none;
+@media (min-width : 1024px) {
+  .lead {
+    padding: 0 48px;
+  }
 }

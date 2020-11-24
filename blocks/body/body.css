@@ -8,16 +8,16 @@
 @media (min-width : 1024px) {
   .body {
     display: grid;
-    grid-template-columns: auto 48px minmax(928px, 1184px ) 48px auto;
+    grid-template-columns: auto minmax(928px, 1280px ) auto;
     grid-template-areas:
 
-    ". . header . ."
-    ". . lead . ."
-    ". . intro . ."
-    ". . photo-grid . ."
-    ". . places . ."
-    ". . cover . ."
-    ". . footer . ."
+    ". header ."
+    ". lead ."
+    ". intro ."
+    ". photo-grid ."
+    ". places ."
+    ". cover ."
+    ". footer ."
 
     ;
   }

@@ -1,7 +1,7 @@
 .intro {
-  background-color: #c0c0c0;
+  
   min-height: 100px;
-  grid-area: lead;
+  grid-area: intro;
 }
 .intro>* {
   display: none;
