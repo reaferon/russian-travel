@@ -20,3 +20,8 @@
     max-width: 60%;
   }
 }
+@media (min-width : 1280px) {
+  .lead__subtitle {
+    max-width: 50%;
+  }
+}
