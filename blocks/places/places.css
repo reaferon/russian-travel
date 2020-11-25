@@ -1,10 +1,21 @@
 .places {
-  background-color: blueviolet;
-  min-height: 100px;
   margin: 0;
   padding: 0;
   grid-area: places;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 0 64px 0;
+
 }
-.places>* {
-  display: none;
+
+@media (min-width : 768px) {
+  .places {
+    padding: 0 0 88px 0;
+  }
+}
+
+@media (min-width : 1024px) {
+  .places {
+    padding: 0 0 92px 0;
+  }
 }

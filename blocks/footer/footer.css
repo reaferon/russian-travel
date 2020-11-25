@@ -1,8 +1,15 @@
 .footer {
-  background-color: darkcyan;
-  min-height: 100px;
   grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 16px;
 }
-.footer>* {
-  display: none;
+@media (min-width : 768px) {
+  .footer {
+    flex-direction: row;
+  }
 }

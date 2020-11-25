@@ -1,0 +1,12 @@
+.cover__image {
+  width: 100%;
+  object-fit: cover;
+  max-width: 1184px;
+  grid-column: 1/2;
+  grid-row: 1/6;
+  opacity: .7;
+  transition: opacity .5s;
+}
+.cover:hover .cover__image {
+  opacity: .2;
+}

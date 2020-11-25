@@ -1,0 +1,29 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "place-title"
+    "place-image"
+    "place-description";
+  padding-bottom: 48px;
+}
+
+.place>* {
+  /* outline: 1px solid #fff; */
+}
+
+@media (min-width : 768px) {
+  .place {
+    grid-template-columns: 24px repeat(2, 1fr) 24px;
+    grid-template-areas:
+      ". place-title place-website ."
+      ". place-image place-description .";
+      padding-bottom: 73px;
+  }
+}
+@media (min-width : 1024px) {
+  .place {
+    grid-template-columns: 48px repeat(2, 1fr) 48px;
+
+  }
+}

@@ -1,0 +1,27 @@
+.place__website {
+  font-size: 18px;
+  line-height: 22px;
+  grid-area: place-website;
+  margin: 0;
+  color: #fff;
+  display: none;
+}
+
+@media (min-width : 768px) {
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+  .place__website::before {
+    display: inline;
+    text-decoration: none;
+    height: 12px;
+    content: 'URL';
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaa;
+    letter-spacing: .2em;
+    margin-bottom: 12px;
+  }
+}
