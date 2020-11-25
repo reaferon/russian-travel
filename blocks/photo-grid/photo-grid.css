@@ -1,6 +1,5 @@
 .photo-grid {
   min-width: calc(100% - 32px);
-  margin: 0;
   padding: 0 4px 12px 4px;
   grid-area: photo-grid;
   list-style-type: none;
@@ -13,7 +12,7 @@
 @media (min-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 14px 16px ;
+    gap: 14px 16px;
     padding: 0 8px 88px 8px;
     min-width: calc(100% - 48px);
   }
