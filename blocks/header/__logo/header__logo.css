@@ -7,6 +7,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  transition: opacity .5s;
+}
+
+.header__logo:hover {
+  opacity: .8;
 }
 
 @media (min-width : 768px) {
