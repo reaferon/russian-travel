@@ -9,9 +9,8 @@
   padding: 0px 14px;
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
   .footer {
     flex-direction: row;
-    
   }
 }

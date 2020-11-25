@@ -2,7 +2,7 @@
   padding-top: 4px;
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
   .footer__copy {
     align-self: flex-end;
     padding-bottom: 12px;

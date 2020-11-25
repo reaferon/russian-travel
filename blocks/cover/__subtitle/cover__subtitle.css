@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
   .cover__subtitle {
     max-width: 360px;
     font-size: 18px;

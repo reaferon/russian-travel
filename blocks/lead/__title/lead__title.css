@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
   .lead__title {
     margin-top: 32px;
   }

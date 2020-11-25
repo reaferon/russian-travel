@@ -7,7 +7,7 @@
     "place-description";
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
   .place {
     grid-template-columns: 24px repeat(2, 1fr) 24px;
     grid-template-areas:
@@ -17,13 +17,13 @@
   }
 }
 
-@media (min-width : 1024px) {
+@media (min-width: 1024px) {
   .place {
     grid-template-columns: 32px repeat(2, 1fr) 32px;
   }
 }
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
   .place {
     grid-template-columns: 0 repeat(2, 1fr) 0;
   }
