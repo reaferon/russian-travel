@@ -1,15 +1,16 @@
 .intro {
   grid-area: intro;
-  padding: 64px 16px 64px 16px;
+  padding: 6px 16px 64px 16px;
 }
 
 @media (min-width : 768px) {
   .intro {
-    margin-bottom: 88px;
+    margin-bottom: 22px;
+    padding: 88px 16px 64px 24px;
   }
 }
-@media (min-width : 1024px) {
+@media (min-width : 1280px) {
   .intro {
-    margin-bottom: 92px;
+    padding-left: 120px;
   }
 }

@@ -3,15 +3,13 @@
   line-height: 26px;
   grid-area: place-description;
   margin: 0;
-  display: grid;
-  grid-gap: 25px 0;
-  padding: 32px 16px;
+  padding: 32px 18px;
 }
 
 @media (min-width : 768px) {
   .place__description {
     padding: 0;
-    margin: 48px 0 0 0;
+    margin: 48px 0 0 8px;
   }
 }
 
@@ -20,7 +18,6 @@
     font-size: 18px;
     line-height: 28px;
     margin: 48px 0 0 0;
-    grid-gap: 26px 0;
     /* margin: 0 24px 0 28px; */
   }
 }

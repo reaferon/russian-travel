@@ -3,7 +3,7 @@
   font-size: 32px;
   line-height: 35px;
   grid-area: place-title;
-  margin: 0 16px 32px 16px;
+  margin: 48px 16px 32px 16px;
 }
 
 @media (min-width : 768px) {

@@ -5,11 +5,6 @@
     "place-title"
     "place-image"
     "place-description";
-  padding-bottom: 48px;
-}
-
-.place>* {
-  /* outline: 1px solid #fff; */
 }
 
 @media (min-width : 768px) {
@@ -18,12 +13,18 @@
     grid-template-areas:
       ". place-title place-website ."
       ". place-image place-description .";
-      padding-bottom: 73px;
+    padding-bottom: 73px;
   }
 }
 @media (min-width : 1024px) {
   .place {
-    grid-template-columns: 48px repeat(2, 1fr) 48px;
+    grid-template-columns: 32px repeat(2, 1fr) 32px;
+
+  }
+}
+@media (min-width : 1280px) {
+  .place {
+    grid-template-columns: 0 repeat(2, 1fr) 0;
 
   }
 }

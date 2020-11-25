@@ -4,6 +4,16 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin: 8px 16px;
+  margin: 8px 16px 0 16px;
   padding: 0;
+}
+@media (min-width : 768px) {
+  .lead__caption {
+    margin: 8px 16px 0 24px;
+  }
+}
+@media (min-width : 1024px) {
+  .lead__caption {
+    margin: 8px 16px 0 0px;
+  }
 }

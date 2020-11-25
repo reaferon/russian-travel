@@ -10,17 +10,17 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-    
+    margin-top: 32px;
     max-width: 640px;
   }
 }
 @media (min-width : 1024px) {
   .lead__subtitle {
-    margin: 0 auto 56px auto;
+    margin: 32px auto 56px auto;
   }
 }
 @media (min-width : 1280px) {
   .lead__subtitle {
-    margin: 0 auto 64px auto;
+    margin: 32px auto 64px auto;
   }
 }

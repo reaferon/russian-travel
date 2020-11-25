@@ -3,7 +3,8 @@
   font-weight: 900;
   line-height: 44px;
   text-align: center;
-  margin: 30px auto 0 auto;
+  margin: 48px auto 0 auto;
+  padding: 0;
 }
 @media (min-width : 768px) {
   .lead__title {
