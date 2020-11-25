@@ -14,11 +14,13 @@
     max-width: 640px;
   }
 }
+
 @media (min-width : 1024px) {
   .lead__subtitle {
     margin: 32px auto 56px auto;
   }
 }
+
 @media (min-width : 1280px) {
   .lead__subtitle {
     margin: 32px auto 64px auto;

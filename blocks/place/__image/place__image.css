@@ -9,15 +9,16 @@
   .place__image {
     width: calc(100% - 22px);
     margin-top: 48px;
-    /* margin-left: 24px; */
   }
 }
+
 @media (min-width : 1024px) {
   .place__image {
     width: calc(100% - 26px);
     margin-top: 42px;
   }
 }
+
 @media (min-width : 1280px) {
   .place__image {
     width: calc(100% - 30px);

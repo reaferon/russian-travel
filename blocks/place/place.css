@@ -16,15 +16,15 @@
     padding-bottom: 73px;
   }
 }
+
 @media (min-width : 1024px) {
   .place {
     grid-template-columns: 32px repeat(2, 1fr) 32px;
-
   }
 }
+
 @media (min-width : 1280px) {
   .place {
     grid-template-columns: 0 repeat(2, 1fr) 0;
-
   }
 }

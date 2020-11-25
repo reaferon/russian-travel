@@ -2,17 +2,20 @@
   width: 100%;
   display: block;
 }
+
 @media (min-width : 768px) {
   .lead__image {
     padding-top: 16px;
   }
 }
+
 @media (min-width : 1024px) {
   .lead__image {
     padding-top: 0;
     max-width: 928px;
   }
 }
+
 @media (min-width : 1280px) {
   .lead__image {
     max-width: 984px;

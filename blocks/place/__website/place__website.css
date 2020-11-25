@@ -14,6 +14,7 @@
     align-self: flex-end;
     margin-left: 8px;
   }
+  
   .place__website::before {
     display: inline;
     text-decoration: none;
