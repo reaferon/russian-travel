@@ -10,20 +10,9 @@
 @media (min-width: 768px) {
   .place__website {
     display: flex;
+    margin-left: 8px;
+    justify-content: flex-end;
     flex-direction: column;
     align-self: flex-end;
-    margin-left: 8px;
-  }
-  
-  .place__website::before {
-    display: inline;
-    text-decoration: none;
-    height: 12px;
-    content: 'URL';
-    font-size: 12px;
-    line-height: 12px;
-    color: #aaa;
-    letter-spacing: .2em;
-    margin-bottom: 14px;
   }
 }

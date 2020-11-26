@@ -1,7 +1,6 @@
 .photo-grid {
   min-width: calc(100% - 32px);
   padding: 0 4px 12px 4px;
-  grid-area: photo-grid;
   list-style-type: none;
   margin: 0 auto;
   display: grid;

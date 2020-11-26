@@ -12,11 +12,11 @@
   grid-template-columns: auto minmax( 320px, 1280px ) auto;
   grid-template-areas:
     ". header ."
-    ". lead ."
-    ". intro ."
+    ". main ."
+    /* ". intro ."
     ". photo-grid ."
     ". places ."
-    ". cover ."
+    ". cover ." */
     ". footer .";
 }
 
