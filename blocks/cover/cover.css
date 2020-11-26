@@ -1,8 +1,7 @@
 .cover {
   grid-area: cover;
-  display: grid;
-  justify-content: center;
-  align-items: center;
   margin: 0;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
