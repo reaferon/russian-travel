@@ -6,7 +6,7 @@
   grid-template-rows: 33px auto 16px auto 33px;
   background: url(../../../images/cover.jpg);
   background-size: cover;
-  
+  min-height: 200px;
 }
 .cover__wrapper::before {
   background-color: #000;
@@ -23,16 +23,19 @@
 @media (min-width: 768px) {
   .cover__wrapper {
     grid-template-rows: 115px auto 32px auto 115px;
+    min-height: 480px;
   }
 }
 @media (min-width: 1024px) {
   .cover__wrapper {
     grid-template-rows: 195px auto 32px auto 195px;
+    min-height: 640px;
   }
 }
 @media (min-width: 1280px) {
   .cover__wrapper {
     grid-template-rows: 245px auto 32px auto 245px;
+    min-height: 740px;
   }
 }
 
