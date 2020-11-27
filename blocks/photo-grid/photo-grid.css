@@ -2,7 +2,6 @@
   min-width: calc(100% - 32px);
   padding: 0 16px;
   list-style-type: none;
-  margin: 0 auto;
   display: grid;
   gap: 9px;
   grid-template-columns: 1fr;
