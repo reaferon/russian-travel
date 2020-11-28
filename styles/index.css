@@ -10,6 +10,7 @@
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/main/main.css);
+@import url(../blocks/main/__section/main__section.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__figure/lead__figure.css);
