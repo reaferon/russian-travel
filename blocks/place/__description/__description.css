@@ -9,7 +9,6 @@
 @media (min-width: 768px) {
   .place__description {
     padding: 0;
-    line-height: 26px;
     margin: 48px 0 0 8px;
   }
 }
@@ -18,5 +17,6 @@
   .place__description {
     font-size: 18px;
     margin: 48px 0 0 0;
+    line-height: 29px;
   }
 }
